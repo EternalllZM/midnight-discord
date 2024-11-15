@@ -38,7 +38,7 @@
 	--text-1: var(--text-2); /* other normally white text */
 	--text-2: hsl(222, 32%, 90%); /* headings and important text */
 	--text-3: hsl(224, 24%, 91%); /* normal text */
-	--text-4: hsl(219, 29%, 87%); /* icon buttons and channels */
+	--text-4: hsl(217, 9%, 64%); /* icon buttons and channels */
 	--text-5: hsl(221, 8%, 40%); /* muted channels/chats and timestamps */
 
 	/* background and dark colors */
