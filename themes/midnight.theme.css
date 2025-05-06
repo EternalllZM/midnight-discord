@@ -52,7 +52,7 @@ body {
     --dms-background-color: linear-gradient(70deg, var(--blue-2), var(--purple-2), var(--red-2)); /* fixed color/gradient (css background property) */
 
     /* background image options */
-    --background-image: on; /* off: no background image, on: enable background image (must set url variable below) */
+    --background-image: off; /* off: no background image, on: enable background image (must set url variable below) */
     --background-image-url: url('https://cdn.zombiesdiscord.com/various/wvistawp.jpg'); /* url of the background image */
 
     /* transparency/blur options */
@@ -78,17 +78,17 @@ body {
 
     /* text colors */
     --text-0: var(--bg-4); /* text on colored elements */
-    --text-1: hsl(220, 45%, 95%); /* other normally white text */
-    --text-2: hsl(220, 25%, 70%); /* headings and important text */
-    --text-3: hsl(220, 20%, 60%); /* normal text */
-    --text-4: hsl(220, 15%, 40%); /* icon buttons and channels */
-    --text-5: hsl(220, 15%, 25%); /* muted channels/chats and timestamps */
+    --text-1: hsl(216, 24%, 96%); /* other normally white text */
+    --text-2: hsl(219, 37%, 85%); /* headings and important text */
+    --text-3: hsl(221, 45%, 78%); /* normal text */
+    --text-4: hsl(219, 11%, 65%); /* icon buttons and channels */
+    --text-5: hsl(219, 11%, 45%); /* muted channels/chats and timestamps */
 
     /* background and dark colors */
     --bg-1: hsla(220, 15%, 20%, 1); /* dark buttons when clicked */
     --bg-2: hsla(220, 15%, 16%, 1); /* dark buttons */
     --bg-3: hsla(220, 15%, 13%, 1); /* spacing, secondary elements */
-    --bg-4: hsla(220, 15%, 10%, 1); /* main background color */
+    --bg-4: rgb(11, 12, 14); /* main background color */
     --hover: hsla(221, 19%, 40%, 0.1); /* channels and buttons when hovered */
     --active: hsla(220, 19%, 40%, 0.2); /* channels and buttons when clicked or selected */
     --active-2: hsla(220, 19%, 40%, 0.3); /* extra state for transparent buttons */
