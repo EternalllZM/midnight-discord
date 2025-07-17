@@ -10,12 +10,24 @@
  * @authorLink https://www.refact0r.dev
 */
 
-/* import theme modules */
-@import url('https://refact0r.github.io/midnight-discord/build/midnight.css');
+@import url("https://raw.githubusercontent.com/EternalllZM/midnight-discord/refs/heads/master/build/midnight.css");
+
+/* === Custom Font Override === */
+@font-face {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+}
+
+* {
+  font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+}
+
 
 body {
     /* font options */
-    --font: 'figtree'; /* change to '' for default discord font */
+    --font: 'SF Pro Display'; /* change to '' for default discord font */
+    /* --font: 'figtree'; /* change to '' for default discord font */
     --code-font: ''; /* change to '' for default discord font */
     font-weight: 400; /* normal text font weight. DOES NOT AFFECT BOLD TEXT */
 
